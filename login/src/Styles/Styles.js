@@ -2,6 +2,9 @@ import { makeStyles } from "@material-ui/core/styles";
 import homepageBackgroundImage from "../img/homepageBackground.jpg";
 
 export const useStyles = makeStyles({
+	hide: {
+		display: "none",
+	},
 	homepageContainer: {
 		position: "absolute",
 		top: "0px",
@@ -14,13 +17,22 @@ export const useStyles = makeStyles({
 		width: "100vw",
 	},
 	homepageItem: {
-        width: "100vw",
+		width: "100vw",
 		display: "flex",
 		flexDirection: "column",
 		alignItems: "center",
 		justifyContent: "center",
-    },
-    homeH1: {
-        fontFamily: "Vollkorn, serif",
-    }
+	},
+	homeH1: {
+		fontFamily: "Vollkorn",
+	},
+	form: {
+		display: "flex",
+		flexDirection: "column",
+		alignItems: "center",
+		justifyContent: "center",
+	},
+	formInputs: {
+		margin: "5px",
+	},
 });
