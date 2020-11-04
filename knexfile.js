@@ -39,7 +39,7 @@ module.exports = {
 	production: {
 		client: "sqlite3",
 		connection: {
-			database: "my_db",
+			database: "./data/staff.db3",
 			user: "username",
 			password: "password",
 		},
