@@ -24,7 +24,7 @@ export const useStyles = makeStyles({
 		justifyContent: "center",
 	},
 	homeH1: {
-		fontFamily: "Vollkorn",
+		fontFamily: "Vollkorn, serif",
 	},
 	form: {
 		display: "flex",
@@ -34,5 +34,14 @@ export const useStyles = makeStyles({
 	},
 	formInputs: {
 		margin: "5px",
+	},
+	zenCont: {
+		display: "flex",
+		flexDirection: "column",
+		alignItems: "center",
+		justifyContent: "center",
+	},
+	zen: {
+		
 	},
 });
