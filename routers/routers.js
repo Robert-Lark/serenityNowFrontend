@@ -4,6 +4,7 @@ const db = require("./router-models.js");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const {restrict} = require("./router-middleware")
+var cors = require("cors");
 
 router.get("/users", restrict(), async (req, res) => {
 	const users = await db.find();
@@ -24,7 +25,7 @@ router.post("/register", async (req, res, next) => {
 	}
 });
 
-router.post("/login", async (req, res, next) => {
+router.post("/login", cors(), async (req, res, next) => {
 	try {
         const { username, password } = req.body;
         const user = await db.findByUsername(username);

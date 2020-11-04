@@ -9,7 +9,6 @@ import Loginform from "./Components/LoginForm";
 import InnerPage from "./Components/InnerPage"
 import RegisterForm from "./Components/RegisterForm";
 import Homepage from "./Components/Homepage"
-import Test from "./Components/test"
 import { gsap } from "gsap";
 
 function App(props) {

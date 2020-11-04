@@ -7,7 +7,6 @@ import Typography from "@material-ui/core/Typography";
 import Loginform from "./LoginForm";
 import InnerPage from "./InnerPage";
 import RegisterForm from "./RegisterForm";
-import Test from "./test";
 import { gsap } from "gsap";
 
 function Homepage(props) {

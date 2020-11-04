@@ -42,6 +42,12 @@ export const useStyles = makeStyles({
 		justifyContent: "center",
 	},
 	zen: {
-		
+		display: "flex",
+		flexDirection: "column",
+		alignItems: "center",
+		justifyContent: "center",
+	},
+	returnButton: {
+		textDecoration: "none",
 	},
 });
