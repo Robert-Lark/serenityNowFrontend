@@ -3,8 +3,8 @@ import { useStyles } from "../Styles/Styles";
 import Button from "@material-ui/core/Button";
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
-import Loginform from "./LoginForm";
-import RegisterForm from "./RegisterForm";
+import Loginform from "./loginForm";
+import RegisterForm from "./registerForm";
 import { gsap } from "gsap";
 
 function Homepage(props) {

@@ -3,7 +3,7 @@ import { useStyles } from "./Styles/Styles";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import PrivateRoute from "./Components/PrivateRoute"
 import Grid from "@material-ui/core/Grid";
-import InnerPage from "./Components/InnerPage"
+import InnerPage from "./Components/innerPage"
 import Homepage from "./Components/Homepage"
 
 function App(props) {
