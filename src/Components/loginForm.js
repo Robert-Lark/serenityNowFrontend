@@ -1,11 +1,9 @@
 import React from "react";
-import axios from "axios";
 import { useForm } from "react-hook-form";
 import { useHistory } from "react-router-dom";
 import { useStyles } from "../Styles/Styles";
 import Button from "@material-ui/core/Button";
 import Grid from "@material-ui/core/Grid";
-import Typography from "@material-ui/core/Typography";
 import TextField from "@material-ui/core/TextField";
 import { axiosWithAuth } from "../API/axiosWithAuth";
 function LoginForm(props) {
