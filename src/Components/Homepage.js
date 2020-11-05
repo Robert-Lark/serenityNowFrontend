@@ -1,11 +1,9 @@
 import React, { useState, useRef, useEffect } from "react";
 import { useStyles } from "../Styles/Styles";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Button from "@material-ui/core/Button";
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 import Loginform from "./LoginForm";
-import InnerPage from "./InnerPage";
 import RegisterForm from "./RegisterForm";
 import { gsap } from "gsap";
 
